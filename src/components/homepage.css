@@ -1,0 +1,23 @@
+.main-page
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.movie-container
+{
+    width: 80%;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    .movie-container
+    {
+        width: 100%;
+    }
+}
